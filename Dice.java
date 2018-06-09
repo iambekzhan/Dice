@@ -13,7 +13,7 @@ public class Dice {
 		int freq[] = new int[7];
 
 		for (int roll = 1; roll < rollTimes; roll++) {
-			++freq[1 + rd.nextInt(6)];
+			++freq[1 + rd.nextInt(7)];
 		}
 		System.out.println("Face\tFrequency");
 		for (int face = 1; face < freq.length; face++) {
